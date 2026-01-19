@@ -65,7 +65,7 @@ const Testimonials = () => {
   return (
     <div className='lg:px-0'>
       {/* Header Section */}
-      <div className='flex lg:flex-row flex-col gap-8 items-center lg:items-start lg:mb-16 mb-8'>
+      <div className='flex lg:flex-row flex-col gap-6 lg:gap-8 items-center lg:items-start lg:mb-16 mb-4'>
         <h1 className='text-4xl text-black bg-[#B9FF66] font-semibold text-center mx-4 px-2 rounded-md w-fit'>
           Testimonials
         </h1>
@@ -81,7 +81,7 @@ const Testimonials = () => {
       </div>
 
       <div 
-        className='my-10 lg:my-20 px-2 lg:px-4 bg-[#191A23] py-8 lg:py-16 rounded-3xl'
+        className='my-8 lg:my-20 px-2 lg:px-4 bg-[#191A23] py-8 lg:py-16 rounded-3xl'
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >

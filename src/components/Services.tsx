@@ -6,9 +6,9 @@ import Image from 'next/image'
 const Services = () => {
 
     return (
-        <div className='my-10'>
+        <div className='mb-4 lg:my-10'>
             {/* services upper line */}
-            <div className='flex lg:flex-row flex-col px-4 gap-8 items-center lg:flex-start my-6 lg:my-10'>
+            <div className='flex lg:flex-row flex-col px-4 gap-8 items-center lg:flex-start lg:my-10'>
                 <h1 className='text-4xl text-black bg-[#B9FF66] font-semibold text-center rounded-md w-fit'>
                     Services
                 </h1>
@@ -25,7 +25,7 @@ const Services = () => {
             </div>
 
             {/* provided Services */}
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-12 py-10">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 lg:gap-12 py-6 lg:py-10">
                 {/* service 1 */}
                 <div className="flex lg:flex-row flex-col justify-between items-center py-4 lg:py-8 rounded-4xl bg-gray-100 border-black border-b-4 border">
                     {/* Title and Button wrapper for desktop */}

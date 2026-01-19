@@ -3,13 +3,13 @@ import React from 'react'
 
 const ContactCTA = () => {
     return (
-        <div className='flex items-center mb-20 bg-gray-100 gap-10 rounded-4xl lg:px-0 px-2 py-6 lg:py-0'>
+        <div className='flex items-center mb:10 lg:mb-20 bg-gray-100 gap-10 rounded-4xl lg:px-0 px-2 py-6 lg:py-0'>
             <div className='flex flex-col px-8 py-2 w-full gap-6 items-center lg:items-start'>
                 <h1 className='text-black font-semibold text-3xl'>Lets make things happen</h1>
                 <p className='text-black text-lg'>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
 
-                <button className='border cursor-pointer border-black bg-gray-900 hover:text-lime-300 text-white px-12 py-4  lg:px-8 lg:py-4 rounded-2xl '>
-                    <Link href="" className='cursor-pointer'>Get Your free Proposal</Link>
+                <button className='border cursor-pointer border-black bg-gray-900 hover:text-lime-300 text-white w-full py-4 lg:px-8 lg:py-4 rounded-2xl '>
+                    <Link href="#" className='cursor-pointer'>Get Your free Proposal</Link>
                 </button>
             </div>
             <div className='hidden lg:block'>

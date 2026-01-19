@@ -6,11 +6,11 @@ const Footer = () => {
   const navLinks = ['About us', 'Services', 'Use Cases', 'Pricing', 'Blog']
 
   return (
-    <footer className='bg-[#191A23] lg:rounded-t-4xl mt-20 -mx-4 md:px-12 lg:px-20 md:py-12 lg:py-12 py-4 relative z-20'>
+    <footer className='bg-[#191A23] lg:rounded-t-4xl mt-10 lg:mt-20 -mx-4 md:px-12 lg:px-20 md:py-12 lg:py-12 py-4 relative z-20'>
       {/* Top Section - Logo, Navigation, Social Icons */}
-      <div className='flex flex-col lg:flex-row justify-between items-center gap-8 mb-12'>
+      <div className='flex flex-col lg:flex-row justify-between items-center gap-8 mb-8 lg:mb-12'>
         {/* Logo */}
-        <div className='flex items-center gap-2'>
+        <div className='flex items-center gap-2 lg:mt-0 mt-6'>
           <Image src='https://i.ibb.co/fWFPP3K/Property-1-Variant2-1.png' alt='Positivus Logo' width={180} height={120} />
         </div>
 

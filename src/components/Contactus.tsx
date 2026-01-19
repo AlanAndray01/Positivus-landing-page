@@ -26,7 +26,7 @@ const Contactus = () => {
   }
 
   return (
-    <div className='my-20 lg:px-4'>
+    <div className=' my-10 lg:my-20 lg:px-4'>
       {/* Header Section */}
       <div className='flex lg:flex-row flex-col gap-4 lg:gap-8 items-center lg:items-start mb-8 lg:mb-16'>
         <h1 className='text-4xl text-black bg-[#B9FF66] font-semibold text-center mx-4 px-2 rounded-md w-fit'>

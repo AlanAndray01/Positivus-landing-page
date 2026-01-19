@@ -3,8 +3,8 @@ import { ArrowUpRight } from 'lucide-react'
 
 const CTAProve = () => {
     return (
-        <div className='my-10 lg:my-20'>
-            <div className='flex lg:flex-row flex-col px-4 gap-8 items-center lg:flex-start my-10'>
+        <div className='my-6 lg:my-20'>
+            <div className='flex lg:flex-row flex-col px-1 gap-8 items-center lg:flex-start my-6'>
                 <h1 className='text-4xl text-black bg-[#B9FF66] font-semibold text-center mx-4 px-2 rounded-md w-fit'>Case Studies</h1>
                 <div className='leading-tight'>
                     <p className='text-md hidden sm:block'>Explore Real-Life Examples of Our Proven Digital Marketing </p>
@@ -16,8 +16,19 @@ const CTAProve = () => {
                 </div>
 
             </div>
-            <div className='my-10 bg-white md:bg-[#191A23] rounded-3xl py-2 md:py-10 px-2 md:px-0'>
-                <div className='md:grid md:grid-cols-3 gap-8 flex overflow-x-auto md:overflow-x-visible snap-x snap-mandatory scrollbar-hide'>
+            <div className='my-2 bg-white md:bg-[#191A23] rounded-3xl py-2 md:py-10 px-2 md:px-0'>
+                <div 
+                  className='md:grid md:grid-cols-3 gap-8 flex overflow-x-auto md:overflow-x-visible snap-x snap-mandatory'
+                  style={{
+                    scrollbarWidth: 'none',
+                    msOverflowStyle: 'none',
+                  }}
+                >
+                  <style>{`
+                    [data-ctaprove-cards]::-webkit-scrollbar {
+                      display: none;
+                    }
+                  `}</style>
                     {/* Card 1 */}
                     <div className='flex flex-col justify-between md:border-r ml-0 md:ml-2 border-0 md:border-white/80 px-12 min-w-full md:min-w-0 snap-center bg-[#191A23] md:bg-transparent rounded-4xl md:rounded-none py-6 md:py-0'>
                         <p className='text-white text-md leading-relaxed mb-6'>

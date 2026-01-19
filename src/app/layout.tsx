@@ -9,8 +9,13 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Your App",
+  title: "Positivus - Landing Page",
   description: "Description",
+  icons: {
+    icon: {
+      url: "https://i.ibb.co/d4vhzVrf/Vector-5.png"
+    },
+  },
 };
 
 export default function RootLayout({

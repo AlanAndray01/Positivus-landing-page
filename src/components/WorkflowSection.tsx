@@ -50,9 +50,9 @@ const WorkflowSection = () => {
   }
 
   return (
-    <section className="w-full py-8 lg:py-12 md:py-16 lg:px-0 lg:max-w-7xl mx-auto">
+    <section className="w-full my-2 lg:py-12 md:py-12 lg:px-0 lg:max-w-7xl mx-auto">
       {/* Header */}
-      <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-8 mb-10 md:mb-16">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-8 mb-4 md:mb-16">
         <div className="bg-[#B9FF66] px-4 py-2 rounded-lg">
           <h2 className="text-black font-semibold text-2xl md:text-3xl whitespace-nowrap">
             Our Working Process
