@@ -4,13 +4,13 @@ import { ArrowUpRight } from 'lucide-react'
 const CTAProve = () => {
     return (
         <div className='my-6 lg:my-20'>
-            <div className='flex lg:flex-row flex-col px-1 gap-8 items-center lg:flex-start my-6'>
+            <div className='flex lg:flex-row flex-col px-1 gap-8 items-center lg:flex-start my-6 lg:mb-16'>
                 <h1 className='text-4xl text-black bg-[#B9FF66] font-semibold text-center mx-4 px-2 rounded-md w-fit'>Case Studies</h1>
                 <div className='leading-tight'>
-                    <p className='text-md hidden sm:block'>Explore Real-Life Examples of Our Proven Digital Marketing </p>
-                    <p className='text-md hidden sm:block'>Success through Our Case Studies</p>
+                    <p className='text-md hidden sm:block text-black'>Explore Real-Life Examples of Our Proven Digital Marketing </p>
+                    <p className='text-md hidden sm:block text-black'>Success through Our Case Studies</p>
                     {/* Show only on mobile, hide on tablet/desktop */}
-                    <p className='block sm:hidden lg:text-lg text-md text-center'>
+                    <p className='block sm:hidden lg:text-lg text-md text-center text-black'>
                         Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies
                     </p>
                 </div>

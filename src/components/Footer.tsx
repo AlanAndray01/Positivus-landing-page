@@ -6,7 +6,7 @@ const Footer = () => {
   const navLinks = ['About us', 'Services', 'Use Cases', 'Pricing', 'Blog']
 
   return (
-    <footer className='bg-[#191A23] lg:rounded-t-4xl mt-10 lg:mt-20 -mx-4 md:px-12 lg:px-20 md:py-12 lg:py-12 py-4 relative z-20'>
+    <footer className='bg-[#191A23] lg:rounded-t-4xl mt-10 lg:mt-20 -mx-4 lg:mx-0 md:px-12 lg:px-20 md:py-12 lg:py-12 py-4 relative z-20'>
       {/* Top Section - Logo, Navigation, Social Icons */}
       <div className='flex flex-col lg:flex-row justify-between items-center gap-8 mb-8 lg:mb-12'>
         {/* Logo */}

@@ -9,13 +9,13 @@ const Herosection = () => {
       <div className="flex flex-col gap-6 lg:py-8 lg:mr-11 lg:w-4/5">
         {/* Heading */}
         <div className="">
-          <h1 className="text-4xl lg:text-5xl font-semibold leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-semibold leading-tight text-black">
             Navigating the
           </h1>
-          <h1 className="text-4xl lg:text-5xl font-semibold leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-semibold leading-tight text-black">
             digital landscape
           </h1>
-          <h1 className="text-4xl lg:text-5xl font-semibold leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-semibold leading-tight text-black">
             for success
           </h1>
         </div>
@@ -34,22 +34,22 @@ const Herosection = () => {
         {/* Text */}
         <div className="">
           {/* Mobile: combined text */}
-          <p className="lg:hidden text-sm md:text-base">
+          <p className="lg:hidden text-sm md:text-base text-black">
             Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.
           </p>
 
           {/* Tablet + Desktop: separate lines */}
           <div className="hidden lg:block">
-            <p className="text-sm md:text-base lg:text-md">
+            <p className="text-sm md:text-base lg:text-md text-black">
               Our digital marketing agency helps businesses
             </p>
-            <p className="text-sm md:text-base lg:text-md">
+            <p className="text-sm md:text-base lg:text-md text-black">
               grow and succeed online through a range of
             </p>
-            <p className="text-sm md:text-base lg:text-md">
+            <p className="text-sm md:text-base lg:text-md text-black">
               services including SEO, PPC, social media marketing,
             </p>
-            <p className="text-sm md:text-base lg:text-md">
+            <p className="text-sm md:text-base lg:text-md text-black">
               and content creation.
             </p>
           </div>

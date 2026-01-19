@@ -51,16 +51,16 @@ const Teams = () => {
   return (
     <div className='lg:my-20 my-8'>
       {/* Header Section */}
-      <div className='flex lg:flex-row flex-col gap-6 lg:gap-8 items-center lg:items-start my-6'>
+      <div className='flex lg:flex-row flex-col gap-6 lg:gap-8 items-center lg:items-start my-6 lg:mb-16'>
         <h1 className='text-4xl text-black bg-[#B9FF66] font-semibold text-center mx-4 px-2 rounded-md w-fit'>
           Team
         </h1>
         <div className='leading-tight'>
-          <p className='text-md hidden sm:block'>Meet the skilled and experienced team behind our</p>
-          <p className='text-md hidden sm:block'>successful digital marketing strategies</p>
+          <p className='text-md hidden sm:block text-black'>Meet the skilled and experienced team behind our</p>
+          <p className='text-md hidden sm:block text-black'>successful digital marketing strategies</p>
 
           {/* Show only on mobile */}
-          <p className='block sm:hidden text-md text-center'>
+          <p className='block sm:hidden text-md text-center text-black'>
             Meet the skilled and experienced team behind our successful digital marketing strategies
           </p>
         </div>

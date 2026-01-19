@@ -14,11 +14,11 @@ const Services = () => {
                 </h1>
                 <div className='leading-tight'>
                     {/* Show on tablet/desktop, hide on mobile */}
-                    <p className='hidden sm:block'>At our digital marketing agency, we offer a range of services to</p>
-                    <p className='hidden sm:block'>help businesses grow and succeed online. These services include:</p>
+                    <p className='hidden sm:block text-black'>At our digital marketing agency, we offer a range of services to</p>
+                    <p className='hidden sm:block text-black'>help businesses grow and succeed online. These services include:</p>
 
                     {/* Show only on mobile, hide on tablet/desktop */}
-                    <p className='block sm:hidden text-center'>
+                    <p className='block sm:hidden text-center text-black'>
                         At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:
                     </p>
                 </div>

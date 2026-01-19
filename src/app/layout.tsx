@@ -24,6 +24,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={spaceGrotesk.variable}><body className={spaceGrotesk.className}>{children}</body></html>
+    <html lang="en" className={spaceGrotesk.variable} style={{ colorScheme: 'light' }}>
+      <body className={spaceGrotesk.className} style={{ backgroundColor: '#ffffff' }}>
+        {children}
+      </body>
+    </html>
   );
 }

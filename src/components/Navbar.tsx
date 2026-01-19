@@ -23,24 +23,24 @@ const Navbar = () => {
       {/* Desktop (UNCHANGED VIEW) */}
       <div className="hidden lg:flex gap-12 items-center">
         <ul className="flex gap-12">
-          <li className="cursor-pointer hover:text-lime-300">
+          <li className="cursor-pointer text-black hover:text-lime-300">
             <Link href="/">About us</Link>
           </li>
-          <li className="cursor-pointer hover:text-lime-300">
+          <li className="cursor-pointer hover:text-lime-300 text-black">
             <Link href="/">Services</Link>
           </li>
-          <li className="cursor-pointer hover:text-lime-300">
+          <li className="cursor-pointer hover:text-lime-300 text-black">
             <Link href="/">Use Cases</Link>
           </li>
-          <li className="cursor-pointer hover:text-lime-300">
+          <li className="cursor-pointer hover:text-lime-300 text-black">
             <Link href="/">Pricing</Link>
           </li>
-          <li className="cursor-pointer hover:text-lime-300">
+          <li className="cursor-pointer hover:text-lime-300 text-black">
             <Link href="/">Blog</Link>
           </li>
         </ul>
 
-        <button className="border border-black text-black hover:text-lime-300 hover:bg-gray-900 px-8 py-3.5 rounded-lg cursor-pointer">
+        <button className="border border-black text-black hover:text-lime-300 hover:bg-gray-900 px-8 py-3.5 rounded-lg cursor-pointer ">
           <Link href="/quote">Request a quote</Link>
         </button>
       </div>
