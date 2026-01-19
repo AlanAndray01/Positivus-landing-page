@@ -71,7 +71,7 @@ const Teams = () => {
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className='border-2 cursor-pointer border-black rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow relative'
+            className='border-2 cursor-pointer border-black rounded-3xl p-3 lg:p-8 shadow-lg hover:shadow-xl hover:scale-102 transition-all duration-300 relative'
           >
             {/* LinkedIn Icon - Top Right */}
             <a
@@ -84,17 +84,16 @@ const Teams = () => {
             </a>
 
             {/* Profile Section with Quatrefoil Image */}
-            <div className='flex items-end gap-4 mb-6 pb-6 border-b border-black'>
+            <div className='flex items-end gap-4 mb-4 pb-4 lg:mb-6 lg:pb-6 border-b border-black'>
               {/* Quatrefoil Container */}
-              <div className='relative w-28 h-28 overflow-hidden'>
-                {/* Circle shape with image */}
+              <div className='relative w-30 h-30 overflow-hidden'>
                 {/* Conditional rendering: Image if exists, otherwise initial */}
                 {member.image ? (
                   <Image
                     src={member.image}
                     alt={member.name}
-                    width={130}
-                    height={130}
+                    width={100}
+                    height={100}
                     className="w-full h-full object-cover"
                   />
                 ) : (
@@ -111,7 +110,7 @@ const Teams = () => {
             </div>
 
             {/* Experience Description */}
-            <p className='text-black text-sm leading-relaxed'>
+            <p className='text-black text-sm leading-relaxed sm:px-1'>
               {member.experience}
             </p>
           </div>

@@ -103,7 +103,7 @@ const Testimonials = () => {
                       </p>
                       
                       {/* Speech Bubble Pointer */}
-                      <div className='absolute -bottom-3 md:-bottom-4.5 left-8 md:left-10 lg:left-12 w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 bg-[#191A23] border-l-2 border-b-2 border-[#B9FF66] transform rotate-315'></div>
+                      <div className='absolute -bottom-3.5 md:-bottom-4.5 lg:-bottom-4.5 left-8 md:left-10 lg:left-12 w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 bg-[#191A23] border-l-2 border-b-2 border-[#B9FF66] transform rotate-315'></div>
                     </div>
 
                     {/* Name and Title */}
