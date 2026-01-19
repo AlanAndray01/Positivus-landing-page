@@ -8,7 +8,7 @@ const ContactCTA = () => {
                 <h1 className='text-black font-semibold text-3xl'>Lets make things happen</h1>
                 <p className='text-black text-lg'>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
 
-                <button className='border cursor-pointer border-black bg-gray-900 hover:text-lime-300 text-white w-full py-4 lg:px-8 lg:py-4 rounded-2xl '>
+                <button className='border cursor-pointer border-black bg-gray-900 hover:text-lime-300 text-white w-full py-4 lg:px-8 lg:py-4 rounded-2xl lg:w-fit'>
                     <Link href="#" className='cursor-pointer'>Get Your free Proposal</Link>
                 </button>
             </div>
