@@ -13,7 +13,7 @@ import Footer from '@/components/Footer'
 
 const page = () => {
   return (
-    <div className='px-4 lg:px-24'>
+    <div className='max-w-360 mx-auto px-4 lg:px-24'>
        <Navbar />
        <Herosection />
        <Brandlogos />
